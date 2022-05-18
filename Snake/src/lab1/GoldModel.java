@@ -106,7 +106,7 @@ public class GoldModel extends GameModel {
 		setGameboardState(this.collectorPos, COLLECTOR_TILE);
 
 		// Insert coins into the gameboard.
-		for (int i = 0; i < COIN_START_AMOUNT; i++) {
+		for (int i = 0; i < COIN_START_AMOUNT; i+=3) {
 			addCoin();
 		}
 	}
